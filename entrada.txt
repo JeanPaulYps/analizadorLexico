@@ -1,0 +1,18 @@
+///comentario
+(* comentario 
+*)
+241241241
+fadfadfa
+fafa
+12421412
+0b01010101
+ffanj
+fdaf
+0x241241
+0231231
+0
+_if
+_main
+_while
+_if _main _while 24241241 0x231231
+0 0
