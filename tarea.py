@@ -57,7 +57,6 @@ def esDecimal (cadena):
     return re.match(categoriasNumeros["decimal"], cadena)
 
 regexTokens = r"\(\*(.|\s)*\*\)|\/\/\/.*|0b[0-1]+|0[0-7]+|0x([0-9]|[a-f]|[A-F])+|(?!0)\d{1,}|0|_if|_while|_main|[A-z]{1}(\d|\w)*"
-print("Bienvenido")
 f = open("entrada.txt",'r')
 entrada = f.read()
 tokensEncontrados = re.finditer(regexTokens,entrada)
