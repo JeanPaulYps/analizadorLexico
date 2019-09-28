@@ -5,17 +5,19 @@ Los tokens que es capaz de leer son: _if, _main, _while, numeros binarios (e.g. 
 
 Una vez ingresado la entrada en el archivo deberá ejecutar una de las siguientes instrucciones, que dependiendo de su sistema operativo:
 
-´´´
+`
 python3 tarea.py
+`
+
+`
 py tarea.py
-´´´
+`
+
 
 La salida sera una tabla con todos los tokens encontrados.
 
-´´´
-+---------------------------------------------+
 | Tipo                 |                 Valor|
-|---------------------------------------------|
+|----------------------|---------------------:|
 | comentario           |        ///comentario |
 | decimal              |            241241241 |
 | binario              |           0b01010101 |
@@ -24,5 +26,3 @@ La salida sera una tabla con todos los tokens encontrados.
 | reservada            |                  _if |
 | reservada            |                _main |
 | reservada            |               _while |
-+---------------------------------------------+
-´´´
